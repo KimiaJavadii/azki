@@ -1,0 +1,11 @@
+@import url(../../Assets/CSS/Settings.css);
+@import url(../../Assets/CSS/slider.css);
+@import url(../../Assets/CSS/AzkiCLub/Header.css);
+@import url(../../Assets/CSS/AzkiCLub/Container.css);
+@import url(../../Assets/CSS/AzkiCLub/Footer.css);
+@import url(../../Assets/CSS/XXLarge/XXLarge-Club.css) only screen and (min-width:1400px);
+@import url(../../Assets/CSS/XLarge/XLarge-Club.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(../../Assets/CSS/Large/Large.Club.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(../../Assets/CSS/Medium/Medium-Club.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(../../Assets/CSS/Small/Small-Club.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(../../Assets/CSS/XSmall/XSmall-CLub.css) only screen and (max-width:576px);

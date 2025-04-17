@@ -1,0 +1,857 @@
+header{
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+header .bg{
+    width: 60%;
+    height: 750px;
+    clip-path: polygon(26% 56%, 28% 59%, 30% 62%, 33% 65%, 35% 66%, 38% 67%, 44% 67%, 100% 67%, 100% 0, 0 0);
+    background-color: #e1f3ff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+header nav{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 0;
+    color: #040a1f;
+    font-size: 12px;
+    height: 70px;
+    margin-bottom: 0;
+    padding: 20px 10px 0;
+    position: relative;
+    display: block;
+}
+
+header h2{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #757575;
+    font-weight: 700;
+    display: block;
+}
+
+
+section{
+    width: 100%;
+    height: 610px;
+    display: block;
+}
+
+section .bg{
+    width: 100%;
+    height: 750px;
+    clip-path: polygon(26% 56%, 28% 59%, 30% 62%, 33% 65%, 35% 66%, 38% 67%, 44% 67%, 100% 67%, 100% 0, 0 0);
+    background-color: #e1f3ff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+section nav{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 0;
+    color: #040a1f;
+    font-size: 12px;
+    height: 70px;
+    margin-bottom: 0;
+    padding: 20px 10px 0;
+    position: relative;
+    display: block;
+}
+
+section nav div{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+section nav div .SVG{
+    width: 24px;
+    height: 24px;
+    display: inline;
+}
+section nav div .logo{
+    width: 60px !important;
+    height: 60px !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+section nav div .menu{
+    width: 95%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    top: -50px;
+}
+
+section nav div .menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-right: 80px;
+}
+
+section nav div .menu ul li{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 20px;
+    color: #040a1f;
+    font-size: 12px;
+}
+
+section nav div .menu ul li button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 143, 255);
+    border-radius: 8px;
+    padding: 6px 16px;
+    border: unset;
+    position: relative;
+    right: 700px;
+}
+section nav div .menu ul li button:hover{
+    background-color: #0d528f;
+}
+
+section nav div .menu ul li button span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+}
+
+section h2{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #757575;
+    font-size: 21px;
+    font-weight: 700;
+    display: block;
+}
+
+section h2 p{
+    height: 32px;
+    position: relative;
+    top: 0;
+    text-align: center;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline;
+}
+
+/* seller */
+section .seller{
+    width: 97%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+section .seller div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: nowrap;
+}
+
+section .seller div .right{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+    height: 415px;
+}
+
+ section .seller div .right .slider{
+    width: 100%;
+    height: 407px;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 32px;
+    border-radius: 16px;
+}
+
+section .seller div .right .slider .swiper.seller .swiper-pagination{
+    width: 100%;
+    height: 41px;
+    margin-top: -80px;
+    display: block;
+}
+
+section .seller div .right .slider .swiper.seller{
+    width: 536px;
+    height: 407px;
+    border-radius: 16px;
+}
+
+section .seller div .right .slider .swiper.seller .swiper-wrapper{
+    width: 536px;
+    height: 307px;
+    display: flex;
+    flex-flow: row;
+    border-radius: 16px;
+}
+
+section .seller div .right .slider .swiper.seller .swiper-wrapper .swiper-slide{
+    width: 536px;
+    height: 307px;
+    margin-left: 16px;
+    border-radius: 16px;
+    position: relative;
+    display: block;
+}
+
+section .seller div .right .slider .swiper.seller .swiper-wrapper .swiper-slide img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+} 
+
+section .seller div .left{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+section .seller div .left h1{
+    width: 100%;
+    height: 42px;
+    margin: 30px 15px 0;
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+section .seller div .left h2{
+    width: 100%;
+    height: 32px;
+    margin: 30px 15px 0;
+    font-size: 21px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: #333333;
+}
+
+section .seller div .left button{
+    width: 109px;
+    height: 35px;
+    margin-top: 40px;
+    border: unset;
+    background-color: #fff;
+    border: 1px solid rgba(0, 143, 255, 0.5);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+}
+section .seller div .left button:hover{
+    background-color: rgb(224, 242, 248);
+}
+
+section .seller div .left button span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: rgb(0, 143, 255);
+}
+
+/* with azki seller */
+section .withazki{
+    width: 98%;
+    height: 1248px;
+    position: relative;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    display: block;
+    right: 0%;
+    overflow: hidden;
+}
+
+section .withazki h2{
+    width: 100%;
+    height: 32px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+}
+
+section .withazki div{
+    width: 97%;
+    height: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+section .withazki div .body{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+section .withazki div .body .box{
+    flex-basis: 95%;
+    height: 200px;
+    flex-grow: 0;
+    display: block;
+    text-align: center;
+}
+
+section .withazki div .body .box .inside{
+    height: 180px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, .16);
+    border-radius: 8px;
+    margin: 10px 15px;
+    padding: 0 10px;
+    text-align: right;
+    display: block;
+}
+
+section .withazki div .body .box .inside .photo{
+    width: 10%;
+    height: 21px;
+    position: relative;
+    top: 5px;
+    margin-left: 8px;
+    display: inline;
+}
+
+section .withazki div .body .box .inside h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    display: inline;
+}
+
+section .withazki div .body .box .inside p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    text-align: right;
+    margin-top: 12px;
+}
+
+/* register */
+section .register{
+    width: 98%;
+    height: 837px;
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+section .register .bg{
+    clip-path: polygon(0 1%, 100% 47%, 100% 98%, 0 52%);
+    background: linear-gradient(88.65deg, #ebf9ff 2.99%, rgba(235, 249, 255, 0) 78.64%);
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    right: 20%;
+    top: 0;
+    z-index: -1;
+}
+
+section .register .steps{
+    width: 100%;
+    height: 837px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    margin-top: 40px;
+}
+
+section .register .steps h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+}
+
+section .register .steps .photo{
+    width: 93%;
+    height: 750px;
+    display: block;
+    margin: 100px 0 auto;
+}
+
+/* story */
+section .story{
+    width: 98%;
+    height: 503px;
+    background-color: #fafafa;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+section .story div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+}
+
+section .story div .inside{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+section .story div .inside .right{
+    height: 90px;
+    flex-basis: 45%;
+    flex-grow: 0;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+section .story div .inside .right h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+    margin-bottom: 32px;
+}
+
+section .story div .inside .right h5{
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+section .story div .inside .left{
+    height: 479px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+/* question */
+section .questions{
+    width: 98%;
+    height: 524px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    display: block;
+    overflow: hidden;
+}
+
+section .questions h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+    text-align: center;
+}
+
+section .questions [id=accordionFlushExample]{
+    margin: 0;
+}
+
+section .questions .accordion.accordion-flush{
+    height: 480px;
+    margin-top: 30px;
+}
+
+section .questions .accordion-item{
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    margin-bottom: 10px;
+    display: block;
+    border: unset;
+    outline: unset;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    overflow-anchor: none;
+    background: rgb(255, 255, 255);
+    transition: none !important;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.08) 0px 8px 10px !important;
+    border-radius: 16px !important;
+}
+
+section .questions .accordion-item button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    display: flex;
+    min-height: unset !important;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0px;
+    margin-right: 20px;
+    border: unset;
+    outline: none;
+}
+
+.accordion-button::after{
+    display: flex;
+    color: rgba(0, 0, 0, 0.54);
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px;
+}
+
+.accordion-body{
+    width: 100%;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse{
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse .accordion-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.6);
+    margin-right: 20px;
+}
+
+/* application */
+section .application{
+    width: 100%;
+    height: 460px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+section .application div{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    display: block;
+}
+
+section .application div .inside{
+    width: 100%;
+    padding: 64px 40px;
+    padding-bottom: 0 !important;
+    display: block;
+}
+
+section .application div .inside h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+    text-align: center;
+}
+
+section .application div .inside .text{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: 60px;
+}
+
+section .application div .inside .text .right{
+    flex-basis: 58%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .application div .inside .text .right p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    display: block;
+    text-align: center;
+}
+
+section .application div .inside .text .right .android{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+    padding: 0;
+}
+
+section .application div .inside .text .right .android .topic{
+    flex-basis: 33%;
+    flex-grow: 0;
+    display: block;
+}
+
+section .application div .inside .text .right .android .topic p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    display: block;
+    text-align: center;
+}
+
+section .application div .inside .text .right .android .image{
+    flex-basis: 66%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .application div .inside .text .right .android .image div{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+section .application div .inside .text .right .android .image div .icon{
+    display: inline;
+}
+
+section .application div .inside .text .right .ios{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 12px;
+    padding: 0;
+}
+
+section .application div .inside .text .right .ios .topic{
+    flex-basis: 33%;
+    flex-grow: 0;
+    display: block;
+}
+
+section .application div .inside .text .right .ios .topic p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    display: block;
+    text-align: center;
+}
+
+section .application div .inside .text .right .ios .image{
+    flex-basis: 66%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .application div .inside .text .right .ios .image div{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+section .application div .inside .text .left{
+    flex-basis: 42%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+    padding-left: 0;
+    position: relative;
+    bottom: 10%;
+}
+
+section .application div .inside .text .left img{
+    width: 230px;
+    height: 300px;
+    direction: ltr;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 308px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    display: block;
+    margin-top: 3600px;
+    left: -2%;
+}
+
+footer div{
+    width: 100%;
+    height: 292px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 8px 16px;
+    padding: 0;
+}
+
+footer div .right{
+    flex-basis: 16%;
+    flex-grow: 0;
+    margin-top: 8px;
+    display: block;
+}
+
+footer div .right a{
+    width: 194px;
+    height: 21px;
+    text-decoration: none;
+}
+
+footer div .right a h4{
+    font-size: 14px;
+    color: #551A8B;
+    display: block;
+}
+
+footer div .middle{
+    flex-basis: 50%;
+    flex-grow: 0;
+    margin-bottom: 16px;
+    display: block;
+}
+
+footer div .middle p{
+    font-size: 14px;
+    color: #333333;
+    display: block;
+}
+
+footer div .middle p .svg{
+    width: 24px;
+    height: 24px;
+    display: inline;
+}
+
+footer div .Left{
+    flex-basis: 33%;
+    flex-grow: 0;
+    height: 244px;
+    display: block;
+}
+
+footer div .Left div{
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer div .Left div .icons{
+    
+    display: block;
+}
+
+footer div .Left div .icons .icon{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+footer div .Left div .icons .icon .photo{
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-right: 8px;
+    padding-top: 8px;
+    height: 88px;
+}
+
+footer  div .Left div .icons .icon .photo img{
+    width: 64px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+footer div .bottom{
+    width: 70%;
+    height: 50px;
+    border-top: 1px solid #f2f2f2;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 20%;
+    display: block;
+}
+
+footer div .bottom span{
+    font-size: 14px;
+    color: #333;
+}
+
+footer div .bottom .svg{
+    width: 24px;
+    height: 24px;
+    display: inline;
+    position: relative;
+    top: 8px;
+}

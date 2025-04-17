@@ -1,0 +1,122 @@
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 16px;
+    border-radius: 16px;
+    padding: 16px 48px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 16px 12px -10px rgba(60, 64, 67, .08);
+    display: flex;
+    align-items: center;
+    z-index: 10000001;
+    
+}
+header>div.menu>div.left-side>div.diamond{
+    display: none;
+}
+header>div.menu{
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>div.menu>div.rightside{
+    width: 80%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+header>div.menu>div.rightside>div.logo{
+    width: 8%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+header>div.menu>div.rightside>div.picture>img{
+    width: 30px;
+}
+
+header>div.menu>div.rightside>div.logo>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-right: 10px;
+}
+
+header>div.menu>div.rightside>div.logo>a>div{
+    width: 54px;
+    height: 24px;
+}
+
+
+header>div.menu>div.rightside>nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+header>div.menu>div.rightside>nav>a{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none !important;
+}
+header>div.menu>div.rightside>nav>a:nth-of-type(3){
+    margin-right: 30px;
+}
+header>div.menu>div.rightside>nav>a:nth-of-type(5){
+    margin-right: 10px;
+}
+header>div.menu>div.rightside>nav>a>p{
+    color: black;
+    align-self: flex-start;
+    font-size: 15px;
+    margin-right: 10px;
+}
+header>div.menu>div.rightside>nav>a>p:hover{
+    color: #008FFF;
+}
+header>div.menu>div.left-side{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header>div.menu>div.left-side>div.support{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+header>div.menu>div.left-side>div.support>button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: none;
+}
+header>div.menu>div.left-side>div.support>button>p{
+    color: #008FFF;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+header>div.menu>div.left-side>div.register{
+    width: 70%;
+    margin-right: 50px;
+}
+header>div.menu>div.left-side>div.register>button{
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #008FFF;
+    color: #008FFF;
+    border-radius: 18px;
+}

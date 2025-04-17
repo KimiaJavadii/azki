@@ -1,0 +1,152 @@
+footer{
+    width: 100%;
+    margin-top: 200px;
+    background: linear-gradient(180deg,#fff,hsla(0,0%,100%,0) 15.59%),linear-gradient(90.32deg,#fdf5e0 -2.35%,#fff 45.56%,#e2f7f9 99.81%);
+}
+footer>div.top-footer{
+    width: 100%;
+}
+footer>div.top-footer>div.app{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #23293C;
+    border-radius: 50px;
+    margin-right: 150px;
+}
+footer>div.top-footer>div.app>div.right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    position: relative;
+}
+footer>div.top-footer>div.app>div.right>img{
+    width: 96px;
+    height: 96px;
+    margin-top: -10px;
+}
+footer>div.top-footer>div.app>div.right>h6{
+    width: 30%;
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+footer>div.top-footer>div.app>div.left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer>div.top-footer>div.app>div.left>img{
+    width: 168px;
+    height: 40px;
+    margin-left: 50px;
+}
+footer>div.top-footer>div.app>div.left>div.button{
+    width: 20%;
+    vertical-align: middle;
+}
+
+footer>div.top-footer>div.app>div.left>div.button>button{
+    width: 100%;
+    height: 36px;
+    background-color: #23293C;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+footer>div.top-footer>div.app>div.left>div.button>button>p{
+    width: 50%;
+    margin-bottom: -25px;
+}
+
+footer>div.top-footer>div.app>div.left>div.button>button:hover{
+    background-color: #2D3042;
+}
+footer>div.middle-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+footer>.middle-footer>div.right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+footer>div.middle-footer>div.right>div.top{
+    width: 100%;
+}
+footer>div.middle-footer>div.right>div.middle{
+    width: 100%;
+    margin-top: 15px;
+}
+footer>div.middle-footer>div.right>div.middle>p{
+    width: 100%;
+    color: rgb(56, 56, 56);
+    font-size: 15px;
+}
+footer>div.middle-footer>div.right>div.bottom{
+    width: 100%;
+    margin-top: 15px;
+}
+footer>div.middle-footer>div.right>div.bottom>p{
+    width: 100%;
+    color: #3f3f3f;
+    font-size: 15px;
+}
+footer>div.middle-footer>div.middle{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+footer>div.middle-footer>div.middle>div.explain{
+    width:20%;
+    margin-left: 50px;
+}
+footer>div.middle-footer>div.middle>div.explain>p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2341DF;
+}
+footer>div.middle-footer>div.middle>div.explain>a{
+    width: 100%;
+}
+footer>div.middle-footer>div.middle>div.explain>a>p{
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+    font-size: 15px;
+}
+footer>div.middle-footer>div.middle>div.explain>a>p:hover{
+    color: #2341DF;
+}
+footer>div.middle-footer>div.left{
+    width: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,110px);
+    gap: 20px;
+    margin-right: -200px;
+}
+footer>div.middle-footer>div.left>a{
+    width: 50%;
+}
+footer>div.middle-footer>div.left>a>img{
+    width: 100px;
+    height: 80px;
+}
+footer>div.bottom-footer{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    background:linear-gradient(90.06deg,#0052d4 .05%,#4364f7 54.75%,#6fb1fc 109.45%);
+}
+footer>div.bottom-footer>p{
+    width:80%;
+    color:white;
+}

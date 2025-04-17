@@ -1,0 +1,11 @@
+@import url(../../Assets/CSS/Settings.css);
+@import url(../../Assets/CSS/Index/header.css);
+@import url(../../Assets/CSS/Index/Containers.css);
+@import url(../../Assets/CSS/slider.css);
+@import url(../../Assets/CSS/Index/Footer.css);
+@import url(../../Assets/CSS/XXLarge/XXLarge-index.css) only screen and (min-width:1400px);
+@import url(../../Assets/CSS/XLarge/XLarge-index.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(../../Assets/CSS/Large/Large-index.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(../../Assets/CSS/Medium/Medium-index.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(../../Assets/CSS/Small/Small-Index.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(../../Assets/CSS/XSmall/XSmall-index.css) only screen and (max-width:576px);

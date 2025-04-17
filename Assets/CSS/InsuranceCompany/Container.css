@@ -1,0 +1,689 @@
+div.first-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../Assets/Images/insurance-companies-bg.webp);
+}
+div.first-container>div.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-right: 200px;
+}
+div.first-container>div.right>h1{
+    width: 100%;
+}
+div.first-container>div.right>div.text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+div.first-container>div.right>div.text>p.first{
+    width: 10%;
+    color: gray;
+    font-size: 12px;
+}
+div.first-container>div.right>div.text>p.second{
+    width: 20%;
+    font-size: 12px;
+}
+div.first-container>div.right>p{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+div.first-container>div.left{
+    width: 55%;
+    margin-top: 150px;
+}
+div.first-container>div.left>div{
+    width: 416px;
+    height: 416px;
+    margin-right: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.first-container>div.left>div>div.photo{
+    width: 190px;
+    height: 208px;
+    object-fit: cover;
+    display: block;
+}
+div.first-container>div.left>div>div.photo>img{
+    width: 190px;
+    height: 208px;
+    object-fit: cover;
+    display: block;
+}
+div.first-container>div.left>div>div.orbit1{
+    width: 251px;
+    height: 251px;
+    position: absolute;
+    top: 75px;
+    bottom: 0px;
+    left: 0;
+    right: 80px;
+    border-radius: 200px;
+    display: block;
+}
+div.first-container>div.left>div>div.orbit1>div.planet1{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -15px;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation-name: solarsystem-orbit1;
+    animation-duration: 21s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+div.first-container>div.left>div>div.orbit1>div.planet1::after{
+    background-image: url(../../../Assets/Images/dana-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%);
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes solarsystem-orbit1 {
+    0%{
+        transform: rotate(0deg) translate(-120px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(-120px) rotate(-1turn);
+    }
+    
+}
+div.first-container>div.left>div>div.orbit1>div.planet2{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -15px;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation-name: SOLARSYSTEM-orbit1;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+div.first-container>div.left>div>div.orbit1>div.planet2::after{
+    background-image: url(../../../Assets/Images/pasargad-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%);
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 50%;
+}
+@keyframes  SOLARSYSTEM-orbit1 {
+    0%{
+        transform: rotate(0deg) translate(120px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(120px) rotate(-1turn);
+    }
+}
+
+div.first-container>div.left>div>div.orbit2{
+    width: 330px;
+    height: 330px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 37px;
+    bottom: 0;
+    left: 0;
+    right: 40px;
+    border-radius: 200px;
+    display: block;
+}
+div.first-container>div.left>div>div.orbit2>div.planet1{
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    bottom: 0px;
+    left: 0;
+    right: 120px;
+    overflow: hidden;
+    animation-name: solarsystem-orbit2;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+div.first-container>div.left>div>div.orbit2>div.planet1::after{
+    width: 33px;
+    height: 33px;
+    background-image: url(../../../Assets/Images/asia-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(-90deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes solarsystem-orbit2 {
+    0%{
+        transform: rotate(0deg) translate(-165px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(-165px) rotate(-1turn);
+    }
+}
+
+
+div.first-container>div.left>div>div.orbit2>div.planet2{
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    bottom: 0px;
+    left: 0;
+    right: 120px;
+    overflow: hidden;
+    animation-name: SOLARSYSTEM-orbit2;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+div.first-container>div.left>div>div.orbit2>div.planet2::after{
+    width: 33px;
+    height: 33px;
+    background-image: url(../../../Assets/Images/iran-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(-90deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes SOLARSYSTEM-orbit2 {
+    0%{
+        transform: rotate(0deg) translate(165px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(165px) rotate(-1turn);
+    }
+}
+
+div.first-container>div.left>div>div.orbit3{
+    transform: rotate(-120deg);
+    width: 416px;
+    height: 416px;
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+    left: 0;
+    right: -5px;
+}
+
+div.first-container>div.left>div>div.orbit3>div.planet1{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    bottom: 0px;
+    left: 0;
+    right: 180px;
+    overflow: hidden;
+    animation-name: solarsystem-orbit3;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+div.first-container>div.left>div>div.orbit3>div.planet1::after{
+    width: 33px;
+    height: 33px;
+    background-image: url(../../../Assets/Images/alborz-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(120deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes solarsystem-orbit3 {
+    0%{
+        transform: rotate(0deg) translate(-208px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(-208px) rotate(-1turn);
+    }
+}
+div.first-container>div.left>div>div.orbit3>div.planet2{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    bottom: 0px;
+    left: 0;
+    right: 180px;
+    overflow: hidden;
+    animation-name: SOLARSYSTEM-orbit3;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+div.first-container>div.left>div>div.orbit3>div.planet2::after{
+    width: 33px;
+    height: 33px;
+    background-image: url(../../../Assets/Images/taavon-company.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(120deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes SOLARSYSTEM-orbit3 {
+    0%{
+        transform: rotate(0deg) translate(208px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translate(208px) rotate(-1turn);
+    }
+}
+
+/* end first container */
+
+
+
+/* start second container */
+div.second-container{
+    width: 65%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-right: 300px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 30px;
+}
+div.second-container>div.right{
+    width: 40%;
+    margin-top: 50px;
+}
+div.second-container>div.right>img{
+    width: 320px;
+    height: 180px;
+    margin-right: 50px;
+}
+div.second-container>div.left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+div.second-container>div.left>h2{
+    width: 100%;
+    font-size: 25px;
+}
+div.second-container>div.left>p{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/* end second container */
+
+/* start third container */
+div.third-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background: radial-gradient(46.9% 46.1% at 100% 51.56%,rgba(0,143,255,.08) 0,rgba(0,143,255,0) 91.4%),radial-gradient(31.53% 36.84% at 51.11% 36.15%,rgba(255,206,67,.22) 0,rgba(255,206,67,0) 100%),radial-gradient(39.83% 34.56% at 0 55.33%,rgba(0,143,255,.08) 0,rgba(0,143,255,0) 100%);
+}
+div.third-container>h1{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+div.third-container>div.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 300px
+}
+div.third-container>div.bottom>div.left{
+    width: 32%;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+div.third-container>div.bottom>div.left>p{
+    width: 100%;
+    color: gray;
+    margin-top: 20px;
+}
+/* end third container */
+
+/* start fourth container */
+div.fourth-container{
+    display: grid;
+    grid-template-columns: repeat(2, 508px);
+    gap: 20px;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+div.fourth-container>div.card{
+    display: flex;
+    flex-direction: row;
+    height: 247px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04),0 8px 10px rgba(0,0,0,.08) !important;
+}
+div.fourth-container>div.card>div.right{
+    width: 25%;
+}
+div.fourth-container>div.card>div.right>div{
+    width: 100%;
+    height: 128px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+div.fourth-container>div.card>div.right>div>img{
+    width: 94px;
+    height: 94px;
+    margin-right: 13px;
+    margin-top: 15px;
+}
+div.fourth-container>div.card>div.left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+div.fourth-container>div.card>div.left>h6{
+    width: 100%;
+    font-weight: 600;
+}
+div.fourth-container>div.card>div.left>p{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #747576;
+}
+
+
+/* end fourth container */
+
+/* start fifth container */
+div.fifth-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+div.fifth-container>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+div.fifth-container>p{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #747576;
+}
+div.fifth-container>div.top{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 220px;
+    margin-top: 20px;
+}
+div.fifth-container>div.top>a{
+    width: 7%;
+    height: 100px;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+div.fifth-container>div.top>a>div{
+    border: 1px solid rgb(212, 211, 211);
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04),0 8px 10px rgba(0,0,0,.08) !important;
+}
+div.fifth-container>div.top>a>div>img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+div.fifth-container>div.top>a>p{
+    color: #454646;
+    margin-right:14px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+div.fifth-container>div.middle{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 220px;
+    margin-top: 50px;
+}
+div.fifth-container>div.middle>a{
+    width: 7%;
+    height: 100px;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+div.fifth-container>div.middle>a>div{
+    border: 1px solid rgb(212, 211, 211);
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04),0 8px 10px rgba(0,0,0,.08) !important;
+}
+div.fifth-container>div.middle>a>div>img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+div.fifth-container>div.middle>a>p{
+    color: #454646;
+    margin-right:14px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+div.fifth-container>div.bottom{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 320px;
+    margin-top: 50px;
+}
+div.fifth-container>div.bottom>a{
+    width: 7%;
+    height: 100px;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+div.fifth-container>div.bottom>a>div{
+    border: 1px solid rgb(212, 211, 211);
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04),0 8px 10px rgba(0,0,0,.08) !important;
+}
+div.fifth-container>div.bottom>a>div>img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+div.fifth-container>div.bottom>a>p{
+    color: #454646;
+    margin-right:14px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+div.fifth-container>div.bottom>a:nth-last-of-type(1)>div>p{
+    color: #454646;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* end fifth container */
+
+
+/* start sixth container */
+div.sixth-container{
+    width: 100%;
+    background: radial-gradient(22.05% 52.22% at 83.4% 50%,rgba(0,251,40,.08) 0,rgba(0,251,40,0) 100%),radial-gradient(21.11% 50% at 50% 50%,rgba(0,143,255,.16) 0,rgba(0,143,255,0) 100%),radial-gradient(21.11% 50% at 21.11% 50%,rgba(0,251,40,.08) 0,rgba(0,251,40,0) 100%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+div.sixth-container>div.top{
+    width: 100%;
+    text-align: center;
+}
+div.sixth-container>div.top>h2{
+    width: 100%;
+    font-size: 30px;
+    color: black;
+}
+div.sixth-container>div.top>p{
+    width: 100%;
+    font-size: 20px;
+    color: #747576;
+}
+div.sixth-container>div.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+div.sixth-container>div.bottom>div.comment{
+    width: 30%;
+    height: 350px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04),0 8px 10px rgba(0,0,0,.08) !important;
+    position: relative;
+}
+div.sixth-container>div.bottom>div.comment>div.top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+div.sixth-container>div.bottom>div.comment>div.top>div.right{
+    width: 50%;
+}
+div.sixth-container>div.bottom>div.comment>div.top>div.right>span{
+    margin-right: 15px;
+}
+div.sixth-container>div.bottom>div.comment>div.top>div.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+div.sixth-container>div.bottom>div.comment>div.top>div.left>p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #454646;
+    margin-bottom: 10px;
+}
+div.sixth-container>div.bottom>div.comment>div.top>div.left>button{
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    color: #008FFF;
+    background-color: #E5F4FF;
+    margin-top: 10px;
+}
+div.sixth-container>div.bottom>div.comment>div.bottom{
+    width: 90%;
+    margin-top: 20px;
+}
+div.sixth-container>div.bottom>div.comment>div.bottom>p{
+    width: 90%;
+    color: #454646;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 15px;
+}
+/* end sixth container */
+
+/* start seventh container */
+div.seventh-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background: radial-gradient(10.47% 20.55% at 75.17% 21.89%,rgba(255,187,0,.1) 0,rgba(255,187,0,0) 100%),radial-gradient(41.26% 25.9% at 96.67% 50%,rgba(0,143,255,.08) 0,rgba(35,65,223,0) 100%),radial-gradient(38.55% 41.03% at -6.28% 58.48%,rgba(0,143,255,.08) 0,rgba(0,143,255,0) 100%);
+}
+div.seventh-container>h5{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+div.seventh-container>div.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+div.seventh-container>div.bottom>div.right{
+    width: 40%;
+}
+div.seventh-container>div.bottom>div.right>span{
+    margin-right: 200px
+}
+div.seventh-container>div.bottom>div.left{
+    width: 35%;
+}
+/* end seventh container */

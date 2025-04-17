@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: AzkiFont;
+}
+
+@font-face {
+    font-family: AzkiFont;
+    src: url(../Fonts/IRANSansXFaNum-Regular.eot);
+    src: url(../Fonts/IRANSansXFaNum-Regular.ttf);
+    src: url(../Fonts/IRANSansXFaNum-Regular.woff);
+    src: url(../Fonts/IRANSansXFaNum-Regular.woff2);
+}
+
+body{
+    
+    overflow-x: hidden;
+}

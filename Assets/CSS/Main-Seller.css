@@ -1,0 +1,11 @@
+@import url(../../Assets/CSS/Settings.css);
+@import url(../../Assets/CSS/slider.css);
+@import url(../../Assets/CSS/BeSeller/Header.css);
+@import url(../../Assets/CSS/BeSeller/Container.css);
+@import url(../../Assets/CSS/BeSeller/Footer.css);
+@import url(../../Assets/CSS/XXLarge/XXLarge-Seller.css) only screen and (min-width:1400px);
+@import url(../../Assets/CSS/XLarge/XLarge-Seller.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(../../Assets/CSS/Large/Large-Seller.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(../../Assets/CSS/Medium/Medium-Seller.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(../../Assets/CSS/Small/Small-Seller.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(../../Assets/CSS/XSmall/XSmall-BeSeller.css) only screen and (max-width:576px);
