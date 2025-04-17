@@ -893,6 +893,9 @@ div.container-sixth>div.left{
     display: flex;
     flex-direction: column;
 }
+div.container-sixth>div.new-bottom{
+    display: none;
+}
 div.container-sixth>div.left>div.top{
     width: 100%;
     display: flex;

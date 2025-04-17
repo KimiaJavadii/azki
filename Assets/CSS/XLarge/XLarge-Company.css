@@ -735,6 +735,9 @@ div.sixth-container>div.top>p{
     font-size: 20px;
     color: #747576;
 }
+div.sixth-container>div.new-bottom{
+    display: none;
+}
 div.sixth-container>div.bottom{
     width: 100%;
     display: flex;

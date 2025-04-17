@@ -884,6 +884,9 @@ div.container-sixth>div.left>div.top>div.text>p{
     margin-right: -70px;
     margin-top: 20px;
 }
+div.container-sixth>div.new-bottom{
+    display: none;
+}
 
 div.container-sixth>div.left>div.bottom{
     width: 60%;

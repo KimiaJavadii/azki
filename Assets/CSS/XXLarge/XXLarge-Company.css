@@ -716,6 +716,9 @@ div.sixth-container{
     flex-direction: column;
     margin-top: 100px;
 }
+div.sixth-container>div.new-bottom{
+    display: none;
+}
 div.sixth-container>div.top{
     width: 100%;
     text-align: center;
